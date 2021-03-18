@@ -6,7 +6,66 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body>
-		
+		<div id="container">
+			<h1> Score Calculator</h1>
+			<div id="calculator">
+
+
+				<form>
+					<p>Education of Head of Family?
+						<p>
+						<select id="serviceQual">
+						<option disabled selected value="0">-- Choose an Option --</option>
+						<option value="0.30"> Professional Degree     </option>
+						<option value="0.20"> Graduate                </option>
+						<option value="0.15"> Intermediate/diploma    </option>
+						<option value="0.10"> High School             </option>
+						<option value="0.05"> Middle School           </option>
+						<option value="0.05"> Primary School          </option>
+						<option value="0.05"> Illiterate              </option>
+					</select>
+
+					<p>Occupation of head of family?
+						<p>
+						<select id="serviceQual">
+						<option disabled selected value="0">-- Choose an Option --</option>
+						<option value="0.30"> Professional            </option>
+						<option value="0.20"> Semi Professional       </option>
+						<option value="0.15"> Clerical/shop/farm      </option>
+						<option value="0.10"> Skilled Worker          </option>
+						<option value="0.05"> Semiskilled Worker      </option>
+						<option value="0.05"> Unskilled worker        </option>
+						<option value="0.05"> Unemployed              </option>
+					</select>
+
+					<p>Total per capita Family Income?
+						<p>
+						<select id="serviceQual">
+						<option disabled selected value="0">-- Choose an Option --</option>
+						<option value="0.30"> Professional Degree     </option>
+						<option value="0.20"> Graduate                </option>
+						<option value="0.15"> Intermediate/diploma    </option>
+						<option value="0.10"> High School             </option>
+						<option value="0.05"> Middle School           </option>
+						<option value="0.05"> Primary School          </option>
+						<option value="0.05"> Illiterate              </option>
+					</select>
+
+				</form>
+			
+				<button type="button" id="calculate">Calculate!</button>
+
+				</div>
+				<!--calculator end-->
+				<div id="totalTip">
+					<sup>$</sup><span id="tip">0.00</span>
+					<small id="each">each</small>
+				</div>
+				<!--totalTip end-->
+
+		</div>
+	<!--container end-->
+	
 	<!-- Modules -->
 	<script type="text/javascript" src="js/app.js"></script>
 
@@ -16,5 +75,7 @@
 	<!-- Directives -->
 	<script src="js/directives/singlelist.js"></script>
 
+	<!-- logic-->
+	<script src="index.js"></script>
 </body>
 </html>
