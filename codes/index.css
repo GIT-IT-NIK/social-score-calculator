@@ -71,7 +71,9 @@ body {
     display: inline;
   }
   
-  #serviceQual {
+  #serviceQual,
+  #education,
+  #income {
     padding: 13px 13px 20px 20px;
     margin-left: 20px;
     font-size: 25px;
@@ -107,7 +109,7 @@ body {
   }
   
   #totalTip:before {
-    content: "Tip amount";
+    content: "Total Score";
     font-size: 20px;
     font-weight: bold;
     display: block;

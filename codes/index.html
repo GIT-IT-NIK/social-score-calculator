@@ -14,42 +14,49 @@
 				<form>
 					<p>Education of Head of Family?
 						<p>
-						<select id="serviceQual">
+						<select id="education">
 						<option disabled selected value="0">-- Choose an Option --</option>
-						<option value="0.30"> Professional Degree     </option>
-						<option value="0.20"> Graduate                </option>
-						<option value="0.15"> Intermediate/diploma    </option>
-						<option value="0.10"> High School             </option>
-						<option value="0.05"> Middle School           </option>
-						<option value="0.05"> Primary School          </option>
-						<option value="0.05"> Illiterate              </option>
+						<option value="7"> Professional Degree     </option>
+						<option value="6"> Graduate                </option>
+						<option value="5"> Intermediate/diploma    </option>
+						<option value="4"> High School             </option>
+						<option value="3"> Middle School           </option>
+						<option value="2"> Primary School          </option>
+						<option value="1"> Illiterate              </option>
 					</select>
 
 					<p>Occupation of head of family?
 						<p>
-						<select id="serviceQual">
+						<select id="Occ">
 						<option disabled selected value="0">-- Choose an Option --</option>
-						<option value="0.30"> Professional            </option>
-						<option value="0.20"> Semi Professional       </option>
-						<option value="0.15"> Clerical/shop/farm      </option>
-						<option value="0.10"> Skilled Worker          </option>
-						<option value="0.05"> Semiskilled Worker      </option>
-						<option value="0.05"> Unskilled worker        </option>
-						<option value="0.05"> Unemployed              </option>
+						<option value="10"> Professional            </option>
+						<option value="6"> Semi Professional       </option>
+						<option value="5"> Clerical/shop/farm      </option>
+						<option value="4"> Skilled Worker          </option>
+						<option value="3"> Semiskilled Worker      </option>
+						<option value="2"> Unskilled worker        </option>
+						<option value="1"> Unemployed              </option>
 					</select>
 
-					<p>Total per capita Family Income?
+					<p>Family Income?<p>
+       				   Rs. <input id="income" type="text" placeholder="Family Income">
+
+					<p>Number of People in the Family?<p>
+       				   Rs. <input id="people" type="text" placeholder="no. of people">
+
+					    <!--
 						<p>
-						<select id="serviceQual">
+						<select id="income">
 						<option disabled selected value="0">-- Choose an Option --</option>
-						<option value="0.30"> Professional Degree     </option>
-						<option value="0.20"> Graduate                </option>
-						<option value="0.15"> Intermediate/diploma    </option>
-						<option value="0.10"> High School             </option>
-						<option value="0.05"> Middle School           </option>
-						<option value="0.05"> Primary School          </option>
-						<option value="0.05"> Illiterate              </option>
+						<option value="12"> RS 2000 and above        </option>
+						<option value="10"> RS 1000 - 1999           </option>
+						<option value="6">  RS  750 - 999            </option>
+						<option value="4">  RS  500 - 749            </option>
+						<option value="3">  RS  300 - 499            </option>
+						<option value="2">  RS  101 - 299            </option>
+						<option value="1">  Less than RS 100         </option>
 					</select>
+					-->
 
 				</form>
 			
@@ -58,8 +65,9 @@
 				</div>
 				<!--calculator end-->
 				<div id="totalTip">
-					<sup>$</sup><span id="tip">0.00</span>
-					<small id="each">each</small>
+					<sup>Total</sup><span id="tip">0.00</span><br>
+					<sup>category</sup><span id="cat">0.00</span>
+					<small id="each"></small>
 				</div>
 				<!--totalTip end-->
 
